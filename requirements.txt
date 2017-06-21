@@ -4,7 +4,7 @@
 # run pip install -r requirements
 
 psycopg2
-Django==1.8.7  # rq.filter: >=1.8,<1.9
+Django==1.8.10  # rq.filter: >=1.8,<1.9
 
 # python libraries
 Pillow
@@ -27,7 +27,7 @@ django-hstore==1.4
 # RESTful API and API documentation
 djangorestframework==3.2.3  # rq.filter: >=3.2,<4.0
 drf-extensions==0.2.7
-django-rest-swagger
+django-rest-swagger==0.3.8
 markdown
 djangorestframework-gis==0.9.6
 djangorestframework-hstore==1.3
